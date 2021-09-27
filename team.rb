@@ -9,7 +9,7 @@ class Team
   end
   
   def calc_win_rate(show_team_result)
-    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は0.#{win.to_f/(win+lose)}です。"
+    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は#{win.to_f/(win+lose)}です。"
   end
 end
 
